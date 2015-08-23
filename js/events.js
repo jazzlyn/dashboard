@@ -1,11 +1,8 @@
-define('events', function(DashBoard) {
+define('events', [], function() {
+    console.log("events loaded");
     $('#login').on('submit', function(event) {
-        DashBoard.server(
-            function () {
-                $('.login-container').hide();
-                $('.dashboard-container').show();
-        }, function () {
-            alert('Login FAILED!!!');
-        });
+        event.preventDefault();
+        $('.login-container').hide();
+        $('.dashboard-container').show();
     });
 });
