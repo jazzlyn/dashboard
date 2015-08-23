@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../favicon.ico" />
+
+    <title>Dashboard</title>
+    <link href="/dashboard/css/bootstrap.css" rel="stylesheet" />
+    <link href="/dashboard/css/main.css" rel="stylesheet" />
+    <link href="/dashboard/css/bootstrap-callout.css" rel="stylesheet" />
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+
+<body>
+
+<!--<div class="container login-container">
+    <h2 class="text-muted">Login</h2>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <form role="form" id="login">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-control" name="username" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" name="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>-->
+
+<div class="dashboard-container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">DashBoard</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                 <ul class="nav navbar-nav navbar-right">
+                     <li><button type="button" class="btn btn-primary navbar-btn">Notifications <span class="badge">4</span></button></li>
+                     <li><img src="/dashboard/images/jazzlyn.png" class="img-circle user-icon" alt="user-icon"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-md-3 col-lg-2">
+                <ul class="nav nav-pills nav-stacked sidebar">
+                    <li role="navigation"><a href="#">Overview</a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked sidebar">
+                    <li role="navigation" class="active"><a href="#">Wohnzimmer</a></li>
+                    <li role="navigation"><a href="#">Küche</a></li>
+                    <li role="navigation"><a href="#">Abstellraum</a></li>
+                    <li role="navigation"><a href="#">Flur</a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked sidebar">
+                    <li role="navigation"><a href="#">Schlafzimmer</a></li>
+                    <li role="navigation"><a href="#">Kinderzimmer 1</a></li>
+                    <li role="navigation"><a href="#">Kinderzimmer 2</a></li>
+                    <li role="navigation"><a href="#">Badezimmer</a></li>
+                    <li role="navigation"><a href="#">Flur</a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked sidebar">
+                    <li role="navigation"><a href="#">Kellerraum</a></li>
+                    <li role="navigation"><a href="#">Au-Pair Zimmer</a></li>
+                </ul>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-9 col-lg-10">
+                <div class="alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>Warning!</strong> Kids are too LOUD!
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="..." alt="Thermometer">
+                            <div class="caption">
+                                <h3>Aktuelle Temperatur</h3>
+                                <p>29,6 °C</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="..." alt="Tacho">
+                            <div class="caption">
+                                <h3>Aktuelle Luftfeuchtigkeit</h3>
+                                <p>45 g/m<sup>3</sup></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="..." alt="Lampe">
+                            <div class="caption">
+                                <h3>Licht</h3>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="/dashboard/js/lib/jquery-1.10.2.min.js"></script>
+<script src="/dashboard/js/bootstrap.min.js"></script>
+<script src="/dashboard/js/lib/require.js"></script>
+</body>
+</html>
