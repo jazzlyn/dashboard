@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dashboard_font';
-  src: url('../font/dashboard_font.eot?11211789');
-  src: url('../font/dashboard_font.eot?11211789#iefix') format('embedded-opentype'),
-       url('../font/dashboard_font.woff?11211789') format('woff'),
-       url('../font/dashboard_font.ttf?11211789') format('truetype'),
-       url('../font/dashboard_font.svg?11211789#dashboard_font') format('svg');
+  src: url('../font/dashboard_font.eot?13211762');
+  src: url('../font/dashboard_font.eot?13211762#iefix') format('embedded-opentype'),
+       url('../font/dashboard_font.woff?13211762') format('woff'),
+       url('../font/dashboard_font.ttf?13211762') format('truetype'),
+       url('../font/dashboard_font.svg?13211762#dashboard_font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'dashboard_font';
-    src: url('../font/dashboard_font.svg?11211789#dashboard_font') format('svg');
+    src: url('../font/dashboard_font.svg?13211762#dashboard_font') format('svg');
   }
 }
 */
@@ -55,9 +55,8 @@
 }
  
 .icon-temperatire:before { content: '\e800'; } /* '' */
-.icon-tint:before { content: '\e801'; } /* '' */
+.icon-adjust:before { content: '\e801'; } /* '' */
 .icon-droplet:before { content: '\e802'; } /* '' */
-.icon-thermometer:before { content: '\e803'; } /* '' */
-.icon-lightbulb:before { content: '\e804'; } /* '' */
+.icon-move:before { content: '\e803'; } /* '' */
 .icon-lamp:before { content: '\e805'; } /* '' */
 .icon-lightbulb-1:before { content: '\e806'; } /* '' */
