@@ -1,0 +1,35 @@
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+<link rel="import" href="../bower_components/paper-badge/paper-badge.html" />
+<link rel="import" href="../bower_components/paper-toolbar/paper-toolbar.html" />
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html" />
+
+<dom-module id="header-element">
+    <template>
+        <style>
+            .container {
+            @apply(--layout-horizontal);
+            @apply(--layout-center-justified);
+            }
+            paper-input {
+            --paper-input-container: {
+                 width: 25%;
+             };
+            --paper-input-container-focus-color: var(--google-blue-500);
+            }
+            paper-button {
+                color: var(--google-blue-500);
+                width: 12%;
+                margin-top: 20px;
+            }
+        </style>
+        <paper-toolbar>
+            <div class="title">Title</div>
+            <paper-icon-button icon="more-vert" on-tap="moreAction"></paper-icon-button>
+        </paper-toolbar>
+    </template>
+    <script>
+        Polymer({
+            is: "header-element",
+        });
+    </script>
+</dom-module>
