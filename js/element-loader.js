@@ -1,5 +1,9 @@
 define('element-loader', [], function() {
     return function(url, node, onComplete) {
+        if (!node) {
+            console.error('no node for url:' + url);
+            return;
+        }
         var ajax = new XMLHttpRequest();
         ajax.onload = function(event) {
             var wrapper = document.createElement('div');

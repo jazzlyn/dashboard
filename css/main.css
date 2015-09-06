@@ -2,17 +2,14 @@
     margin-top: 50px;
 }
 .thumbnail-user {
-    margin: 8px 0 8px 10px;
-    padding: 3px 0;
-    width: 28px;
-    height: 34px;
+    margin: 10px 20px;
+    padding: 0;
+    width: 35px;
+    height: 35px;
 }
-
-.sidebar {
+nav#sidebar ul li:last-child {
     margin-bottom: 20px;
 }
-
-
 i {
     font-size: 12vw;
 }
