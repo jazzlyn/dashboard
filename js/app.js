@@ -1,3 +1,3 @@
-define('app', ['events'], function() {
+define('app', ['elements/login'], function() {
     $('.dashboard-container').hide();
 });
