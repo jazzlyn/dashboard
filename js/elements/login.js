@@ -5,6 +5,7 @@ define('elements/login', ['element-loader'], function(load) {
             event.preventDefault();
             if (validateForm()) {
                 $('.login-container').hide();
+                $('.push-container').show();
                 $('.dashboard-container').show();
             }
         });

@@ -1,6 +1,9 @@
 #login {
     margin-top: 50px;
 }
+.alert {
+    margin-top: -15px;
+}
 .thumbnail-user {
     margin: 10px 20px;
     padding: 0;
