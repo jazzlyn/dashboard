@@ -11,18 +11,45 @@
     height: 35px;
 }
 .sidebar ul li a {
-    color: #2196f3;
+    color: #151515;
 }
 .sidebar ul li:last-child {
     margin-bottom: 20px;
 }
+.main-icons a:active {
+    text-decoration: none;
+}
 i {
-    font-size: 12vw;
+    font-size: 8vw;
+    color: #2196f3;
+}
+.icon-button {
+    text-decoration: none;
+    text-transform: none;
+}
+.icon-button a:active {
+    text-decoration: none;
+}
+.icon-button a:hover {
+    text-decoration: none;
+}
+.icon-button a:focus {
+    text-decoration: none;
 }
 .icon-legend {
     font-size: 2vw;
+    color: #151515;
 }
 .nav-pills li.active a {
     color: #fff;
     background-color: #2196f3;
+}
+.temp-blue {
+    color: #2196f3;
+}
+.temp-yellow {
+    color: #ffe927;
+}
+.temp-red {
+    color: #f55549;
 }
