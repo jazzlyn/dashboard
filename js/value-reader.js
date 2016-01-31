@@ -11,6 +11,10 @@ setInterval (function() {
             document.querySelector('.temp-color').className = 'icon-temperatire temp-color temp-yellow';
         } else {
             document.querySelector('.temp-color').className = 'icon-temperatire temp-color temp-red';
+            $('.push-container').show();
+            document.querySelector('.alert-text').innerHTML = 'In Raum xy hat es im Moment ' + temp + '&deg;C!';
         }
     }
 }, 500);
+
+// if temp > 25, warning on push-element

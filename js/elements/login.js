@@ -9,7 +9,7 @@ define('elements/login', ['element-loader'], function(load) {
                 $('.dashboard-container').show();
             }
         });
-        /* handle events for inputs in login */
+        // handle events for inputs in login
         $.material.input("#login input");
         $.material.attachInputEventHandlers();
         function validateForm() {
