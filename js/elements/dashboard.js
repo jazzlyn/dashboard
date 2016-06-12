@@ -1,4 +1,5 @@
 define('elements/dashboard', ['element-loader'], function(load) {
+    "use strict";
     var node = document.querySelector('.dashboard-container');
     load('elements/dashboard.html', node, function(ajax) {
         require(['elements/dashboard/sidebar', 'elements/dashboard/main']);

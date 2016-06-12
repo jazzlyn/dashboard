@@ -1,17 +1,23 @@
+"use strict";
 var temp = 25;
 var currentTemp;
-
+// interval for temperature color change depend on temperature
 setInterval (function() {
     if (currentTemp !== temp) {
-        document.querySelector('.temp-value').innerHTML = temp + '&deg;C';
+        var tempValue = document.querySelector('.temp-value');
+        if (!tempValue) {
+            return;
+        }
+        tempValue.innerHTML = temp + '&deg;C';
         currentTemp = temp;
+        var tempColor = document.querySelector('.temp-color');
         if (temp < 14) {
-            document.querySelector('.temp-color').className = 'icon-temperatire temp-color temp-blue';
+            tempColor.className = 'icon-temperatire temp-color temp-blue';
         } else if (temp >= 14 && temp <= 25) {
-            document.querySelector('.temp-color').className = 'icon-temperatire temp-color temp-yellow';
+            tempColor.className = 'icon-temperatire temp-color temp-yellow';
         } else {
-            document.querySelector('.temp-color').className = 'icon-temperatire temp-color temp-red';
-            $('.push-container').show();
+            tempColor.className = 'icon-temperatire temp-color temp-red';
+            document.querySelector('.push-container').style.display = 'block';
             document.querySelector('.alert-text').innerHTML = 'In Raum xy hat es im Moment ' + temp + '&deg;C!';
         }
     }

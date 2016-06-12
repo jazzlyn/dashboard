@@ -1,4 +1,5 @@
 define('app', ['elements/header', 'elements/push', 'elements/login', 'elements/dashboard'], function() {
-    $('.push-container').hide();
-    $('.dashboard-container').hide();
+    "use strict";
+    document.querySelector('.push-container').style.display = 'none';
+    document.querySelector('.dashboard-container').style.display = 'none';
 });
